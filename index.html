@@ -22,7 +22,11 @@
     });
 
     // Load a GeoJSON.
-    map.data.loadGeoJson('https://niewlabs.github.io/heatmap.json');    
+    map.data.loadGeoJson('https://niewlabs.github.io/heatmap.json');
+    map.data.setStyle({
+      //icon: '//example.com/path/to/image.png',
+      fillColor: 'red'
+    });
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
