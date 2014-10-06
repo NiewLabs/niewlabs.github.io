@@ -1,0 +1,46 @@
+{
+
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "letter": "G",
+                "color": "blue",
+                "rank": "7",
+                "ascii": "71"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "fillColor":"blue",
+                "coordinates": [
+                  [
+
+                    [
+                      -79.6222,
+                      44.0889
+                    ],
+                    [
+                      -80.4545,
+                      43.5061
+                    ],
+                    [
+                      -79.1712,
+                      43.1480
+                    ],
+                    [
+                      -79.9420,
+                      43.8619
+                    ],
+                    [
+                      -79.6222,
+                      44.0889
+                    ]
+                ]
+              ]
+            }
+        }
+
+    ]
+
+}
